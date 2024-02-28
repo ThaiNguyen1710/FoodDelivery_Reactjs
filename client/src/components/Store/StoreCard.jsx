@@ -90,7 +90,8 @@ const StoreCard = ({ data }) => {
       <div className="w-full flex">
         <div className="w-32 flex items-center gap-1">
           <p className="text-xl font-semibold">
-            {parseFloat(ratedStore).toFixed(1)}
+            {/* {parseFloat(ratedStore).toFixed(1)} */}
+            0
             
           </p>
           <FaStar className="w-6 h-6 text-yellow-400" />

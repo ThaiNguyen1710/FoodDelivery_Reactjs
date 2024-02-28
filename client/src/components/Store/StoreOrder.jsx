@@ -155,7 +155,7 @@ const StoreOrder = () => {
         </div>
       </div>
 
-      {filterOrders.length > 0 ? (
+      {/* {filterOrders.length > 0 ? (
         <>
           {filterOrders
             .slice(
@@ -165,6 +165,14 @@ const StoreOrder = () => {
             .map((item, i) => (
               <OrderData key={i} index={i} data={item} admin={true} />
             ))}
+        </>
+      ) : (
+        <h1 className="text-[72px] text-headingColor font-bold">No Data</h1>
+      )} */}
+
+{filterOrders.length > 0 ? (
+        <>
+          <h1 className="text-[72px] text-headingColor font-bold">No Data</h1>
         </>
       ) : (
         <h1 className="text-[72px] text-headingColor font-bold">No Data</h1>

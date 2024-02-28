@@ -207,7 +207,8 @@ const StoreItem = () => {
           {title: <p className="font-semibold text-xl">Lượt bán</p>,
           field: "rowData.numRated",
           render: (rowData) => (
-            <p className="text-textColor font-medium ">{rowData.numRated}+</p>
+            // <p className="text-textColor font-medium ">{rowData.numRated}+</p>
+             <p className="text-textColor font-medium ">0+</p>
           ),
         },
           {
@@ -216,7 +217,8 @@ const StoreItem = () => {
             render: (rowData) => (
               <div className="flex justify-center items-center gap-1 text-base font-normal">
                 <p className="text-textColor font-medium ">
-                  {parseFloat(rowData.ratings).toFixed(1)}
+                  {/* {parseFloat(rowData.ratings).toFixed(1)} */}
+                  0
                 </p>
                 <FaStar className="text-orange-400 text-base font-normal" />
               </div>

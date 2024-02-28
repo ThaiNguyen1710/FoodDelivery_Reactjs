@@ -112,7 +112,8 @@ const StoreDetail = ({ closeStore }) => {
                 </p>
                 <div className="pt-6 flex items-center gap-1">
                   <p className="text-xl font-semibold">
-                    {parseFloat(ratedStore).toFixed(1)}
+                    {/* {parseFloat(ratedStore).toFixed(1)} */}
+                    0
                   </p>
                   <FaStar className="w-6 h-6 text-yellow-400" />
                   <motion.button
@@ -120,9 +121,10 @@ const StoreDetail = ({ closeStore }) => {
                     className=" flex  items-center  gap-1 bg-gradient-to-bl from-orange-400 to-orange-600 px-2 py-1 rounded-xl text-black text-base font-semibold "
                   >
                     <FaUserCheck className="w-8 h-8 text-slate-100" />
-                   {numRated} +
+                   {/* {numRated} + */}
+                   0+
                   </motion.button>
-                  <p className="text-lg font-normal ">{" "}đánh giá trên 6Food</p>
+                  <p className="text-lg font-normal ">{" "}đánh giá trên EatEase</p>
                 </div>
               </div>
               <div className="gap-12 pb-8">
@@ -161,7 +163,7 @@ const StoreDetail = ({ closeStore }) => {
                       Dịch vụ bởi
                     </p>
                     <p className="font-semibold text-3xl" style={gradientStyle}>
-                      6Food
+                      EatEase
                     </p>
                   </div>
                 </div>

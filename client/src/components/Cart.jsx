@@ -135,7 +135,7 @@ const Cart = () => {
               <motion.button
                 className="w-[80%] h-12 rounded-full bg-orange-400 shadow-md items-center justify-center flex cursor-pointer"
                 {...buttonClick}
-                onClick={checkOut}
+                // onClick={checkOut}
               >
                 <p className="text-2xl font-semibold text-primary">
                   Thanh Toán

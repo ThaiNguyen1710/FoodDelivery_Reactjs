@@ -55,7 +55,7 @@ const Header = () => {
       <NavLink to={"/"} className="flex items-center justify-center gap-4">
         <img src={logo2} className="w-16 " alt="" />
         <p className="font-semibold text-3xl" style={gradientStyle}>
-          6Food
+        EatEase
         </p>
       </NavLink>
 
@@ -104,7 +104,7 @@ const Header = () => {
             className={({ isActive }) =>
               isActive ? isActiveStyles : isNotActiveStyles
             }
-            to={"/contact/aboutUs"}
+            // to={"/contact/aboutUs"}
           >
             Liên Hệ
           </NavLink>
@@ -160,7 +160,7 @@ const Header = () => {
                     </Link>
                     <Link
                       className="hover:text-red-400 text-xl text-textColor"
-                      to={"/user-orders"}
+                      // to={"/user-orders"}
                     >
                       Orders
                     </Link>

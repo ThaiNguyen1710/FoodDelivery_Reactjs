@@ -14,7 +14,7 @@ const ShopRightSection = () => {
       <StoreHeader />
       <div className="flex flex-col flex-1 overflow-y-scroll scrollbar-none">
         <Routes>
-          <Route path="/home" element={<StoreHome />} />
+          {/* <Route path="/home" element={<StoreHome />} /> */}
           <Route path="/information" element={<StoreInformation />} />
           <Route path="/order" element={<StoreOrder />} />
           <Route path="/item" element={<StoreItem />} />
